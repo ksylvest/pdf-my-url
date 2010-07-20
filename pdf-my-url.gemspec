@@ -19,7 +19,8 @@ Gem::Specification.new do |s|
      "Rakefile",
      "VERSION",
      "init.rb",
-     "lib/pdf-my-url.rb"
+     "lib/pdf-my-url.rb",
+     "pdf-my-url.gemspec"
   ]
   s.homepage = %q{http://github.com/ksylvest/pdf-my-url}
   s.rdoc_options = ["--charset=UTF-8"]
