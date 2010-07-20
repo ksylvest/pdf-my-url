@@ -1,0 +1,17 @@
+= PDFmyURL
+
+A basic ruby-on-rails interface to http://pdfmyurl.com/
+
+== Example
+ 
+<%= pdf_my_url 'CBC', 'http://www.cbc.ca/' %>
+
+<%= pdf_my_url 'BBC', 'http://www.bbc.co.uk/', :filename => 'BBC.pdf' %>
+
+<%= pdf_my_url 'NY Times', 'http://www.nytimes.com/', :filename => 'NY-Times.pdf',
+	:page_height => 200, :page_width => 100,
+	:margin_top => 10, :margin_left => 5, :margin_right => 5, :margin_bottom => 10 %>
+
+== Copyright
+
+Copyright (c) 2010 Kevin Sylvestre, released under the MIT license
