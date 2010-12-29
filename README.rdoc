@@ -1,6 +1,6 @@
 = PDFmyURL
 
-PDFmyURL is a basic ruby-on-rails view helper for the online web service HREF:http://pdfmyurl.com/:PDFmyURL. It allows for easy PDF creation from URLs without having to install any conversion tools.
+PDFmyURL is a basic ruby-on-rails view helper for the online web service http://pdfmyurl.com. It allows for easy PDF creation from URLs without having to install any conversion tools.
 
 == Requirements
 
