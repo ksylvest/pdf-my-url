@@ -1,0 +1,8 @@
+<div id="link-1"><%= pdf_my_url 'PDF', 'http://www.cbc.ca/' %></div>
+<div id="link-2"><%= pdf_my_url 'PDF', 'http://www.cbc.ca/', :filename => 'CBC.pdf' %></div>
+<div id="link-3"><%= pdf_my_url 'PDF', 'http://www.cbc.ca/', :orientation => :portrait %></div>
+<div id="link-4"><%= pdf_my_url 'PDF', 'http://www.cbc.ca/', :orientation => :landscape %></div>
+<div id="link-5"><%= pdf_my_url 'PDF', 'http://www.cbc.ca/', :page => { :size => 'A4' } %></div>
+<div id="link-6"><%= pdf_my_url 'PDF', 'http://www.cbc.ca/', :page => { :size => 'Letter' } %></div>
+<div id="link-7"><%= pdf_my_url 'PDF', 'http://www.cbc.ca/', :page => { :height => 200, :width => 200 } %></div>
+<div id="link-8"><%= pdf_my_url 'PDF', 'http://www.cbc.ca/', :margin => { :top => 10, :bottom => 10 } %></div>
