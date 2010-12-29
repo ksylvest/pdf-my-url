@@ -6,7 +6,7 @@ PDFmyURL is a basic ruby-on-rails view helper for the online web service [http:/
 
 The gem has been tested with Ruby 1.9.2 and Rails 3.0.3 and may work with other versions of Ruby or Rails.
 
-# Installation
+## Installation
 
     gem install pdf-my-url
 
