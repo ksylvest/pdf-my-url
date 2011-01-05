@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.email       = ["kevin@ksylvest.com"]
   s.homepage    = "http://github.com/ksylvest/pdf-my-url"
   s.summary     = "A basic ruby-on-rails interface to http://pdfmyurl.com/"
-  s.description = "PDF my URL is a Ruby on Rails view helper for easily creating attachments from the online web service with the same name."
+  s.description = "PDFmyURL is a Ruby on Rails view helper for easily creating attachments from the online web service with the same name."
   s.files       = Dir.glob("{bin,lib}/**/*") + %w(README.rdoc LICENSE Gemfile)
 end
 
